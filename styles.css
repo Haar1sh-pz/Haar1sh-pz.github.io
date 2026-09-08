@@ -70,3 +70,27 @@ main {
   width: 100%;
   height: 2.5rem;
 }
+/* Tag selector: styles all paragraphs */
+p {
+  font-size: 16px;
+}
+
+/* Class selector: styles your page headings */
+.page-title {
+  color: navy;
+}
+
+/* ID selector: styles your contact form */
+#contact-form {
+  padding: 20px;
+}
+
+/* Attribute selector: styles email input fields */
+input[type="email"] {
+  background-color: lightyellow;
+}
+
+/* Child selector: spaces out navigation list items */
+.nav-list > li {
+  margin-right: 15px;
+}
