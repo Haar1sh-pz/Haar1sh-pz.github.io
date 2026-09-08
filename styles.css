@@ -166,8 +166,6 @@ body {
 .about {
   margin: 20px;
   padding: 24px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #153e75;
+  border: 2px solid #153e75;
   background-color: white;
 }
