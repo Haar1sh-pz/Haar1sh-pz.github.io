@@ -94,3 +94,26 @@ input[type="email"] {
 .nav-list > li {
   margin-right: 15px;
 }
+/* Change navigation links when you hover */
+.navbar a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+/* Change navigation links while clicking */
+.navbar a:active {
+  color: red;
+}
+
+/* Highlight links when selected using the keyboard */
+a:focus-visible {
+  outline: 2px solid blue;
+  outline-offset: 4px;
+}
+
+/* Highlight the contact field you are typing in */
+input:focus,
+textarea:focus {
+  outline: 2px solid blue;
+  outline-offset: 2px;
+}
